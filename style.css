@@ -1,0 +1,146 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: #EBF1EB;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+}
+
+a{
+    text-decoration: none;
+}
+
+main{
+    max-width: 1500px;
+    padding: 0 50px;
+    margin: 0 auto;
+}
+
+header{
+    padding-top: 70px;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 70px;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    max-width: 347px;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+ul a{
+    font-size: 18px;
+    line-height: 28.8px;
+    color: #264B1D;
+}
+
+h1{
+    font-size: 80px;
+    line-height: 100px;
+    font-weight: 400;
+    color: #264B1D;
+    margin-bottom: 70px;
+}
+
+.banner{
+    border-radius: 16px;
+    width: 100%;
+}
+
+.first{
+    padding: 84px 0 90px;
+}
+
+.first h2{
+    font-size: 80px;
+    line-height: 100px;
+    color: #264B1D;
+    margin-bottom: 56px;
+}
+
+.btn{
+    width: 162px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #264B1D;
+    border-radius: 3px;
+    font-size: 20px;
+    line-height: 28.8px;
+    color: #264B1D;
+}
+
+.second{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 58px;
+}
+
+.second img{
+    border-radius: 16px;
+}
+
+.text{
+    max-width: 630px;
+}
+
+.second h3{
+    font-size: 38px;
+    line-height: 44px;
+    margin-bottom: 45px;
+    color: #264B1D;
+}
+
+.third{
+    background: #264B1D;
+    border-radius: 16px;
+    padding: 90px 50px;
+}
+
+.third h3{
+    font-size: 80px;
+    line-height: 100px;
+    color: #fff;
+    margin-bottom: 45px;
+}
+
+.third p{
+    font-size: 26px;
+    line-height: 36px;
+    color: #fff;
+}
+
+footer{
+    padding: 53px 0 114px;
+}
+
+.footer-title{
+    font-weight: 400;
+    font-size: 80px;
+    line-height: 100px;
+    color: #264B1D;
+    margin-bottom: 56px;
+}
+
+footer p{
+    margin-top: 70px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #264B1D;
+    font-size: 60px;
+    line-height: 100px;
+}
